@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{015222D2-14BD-44D0-8CCB-9007ECAA77AA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MiniMercadoMartins</RootNamespace>
+    <AssemblyName>MiniMercadoMartins</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlterarDadosControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlterarDadosControl1.Designer.cs">
+      <DependentUpon>AlterarDadosControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlterarDadosFornecedorControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlterarDadosFornecedorControl1.Designer.cs">
+      <DependentUpon>AlterarDadosFornecedorControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlterarDadosProdutoControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlterarDadosProdutoControl1.Designer.cs">
+      <DependentUpon>AlterarDadosProdutoControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarClienteControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CadastrarClienteControl1.Designer.cs">
+      <DependentUpon>CadastrarClienteControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarFornecedorControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CadastrarFornecedorControl1.Designer.cs">
+      <DependentUpon>CadastrarFornecedorControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarFuncionarioControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CadastrarFuncionarioControl1.Designer.cs">
+      <DependentUpon>CadastrarFuncionarioControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrarProdutoControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CadastrarProdutoControl1.Designer.cs">
+      <DependentUpon>CadastrarProdutoControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="carrinhoControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="carrinhoControl2.Designer.cs">
+      <DependentUpon>carrinhoControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarDadosFornecedorControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultarDadosFornecedorControl1.Designer.cs">
+      <DependentUpon>ConsultarDadosFornecedorControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarFuncionarioControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultarFuncionarioControl1.Designer.cs">
+      <DependentUpon>ConsultarFuncionarioControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarProdutoControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConsultarProdutoControl1.Designer.cs">
+      <DependentUpon>ConsultarProdutoControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlterarPrecoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlterarPrecoProduto.Designer.cs">
+      <DependentUpon>FrmAlterarPrecoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCaixa.Designer.cs">
+      <DependentUpon>FrmCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarDados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarDados.Designer.cs">
+      <DependentUpon>FrmConsultarDados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarFuncionario.Designer.cs">
+      <DependentUpon>FrmGerenciarFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarProduto.Designer.cs">
+      <DependentUpon>FrmGerenciarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPagarCarrinho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPagarCarrinho.Designer.cs">
+      <DependentUpon>FrmPagarCarrinho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarFornecedor.Designer.cs">
+      <DependentUpon>FrmGerenciarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AlterarDadosFuncionarioControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlterarDadosFuncionarioControl1.Designer.cs">
+      <DependentUpon>AlterarDadosFuncionarioControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AlterarDadosControl1.resx">
+      <DependentUpon>AlterarDadosControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlterarDadosFornecedorControl1.resx">
+      <DependentUpon>AlterarDadosFornecedorControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlterarDadosFuncionarioControl1.resx">
+      <DependentUpon>AlterarDadosFuncionarioControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlterarDadosProdutoControl1.resx">
+      <DependentUpon>AlterarDadosProdutoControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarClienteControl1.resx">
+      <DependentUpon>CadastrarClienteControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarFornecedorControl1.resx">
+      <DependentUpon>CadastrarFornecedorControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarFuncionarioControl1.resx">
+      <DependentUpon>CadastrarFuncionarioControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrarProdutoControl1.resx">
+      <DependentUpon>CadastrarProdutoControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carrinhoControl2.resx">
+      <DependentUpon>carrinhoControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarDadosFornecedorControl1.resx">
+      <DependentUpon>ConsultarDadosFornecedorControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarFuncionarioControl1.resx">
+      <DependentUpon>ConsultarFuncionarioControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarProdutoControl1.resx">
+      <DependentUpon>ConsultarProdutoControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlterarPrecoProduto.resx">
+      <DependentUpon>FrmAlterarPrecoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCaixa.resx">
+      <DependentUpon>FrmCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarDados.resx">
+      <DependentUpon>FrmConsultarDados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarFuncionario.resx">
+      <DependentUpon>FrmGerenciarFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarProduto.resx">
+      <DependentUpon>FrmGerenciarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPagarCarrinho.resx">
+      <DependentUpon>FrmPagarCarrinho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarFornecedor.resx">
+      <DependentUpon>FrmGerenciarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcc3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novoxbranco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novoxbranco1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novotracobranco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemcaixa3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemcarrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaBaixo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagemperfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaBaixo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaCima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaBaixo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SetaCima2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

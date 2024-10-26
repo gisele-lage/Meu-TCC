@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tcc1201\\MiniMercadoMartins\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|d:\\tcc1201\\minimercadomartins\\minimercadomartins\\cadastrarclientecontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|solutionrelative:minimercadomartins\\cadastrarclientecontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|d:\\tcc1201\\minimercadomartins\\minimercadomartins\\cadastrarclientecontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|solutionrelative:minimercadomartins\\cadastrarclientecontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|d:\\tcc1201\\minimercadomartins\\minimercadomartins\\frmpagarcarrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|solutionrelative:minimercadomartins\\frmpagarcarrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|d:\\tcc1201\\minimercadomartins\\minimercadomartins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|solutionrelative:minimercadomartins\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|d:\\tcc1201\\minimercadomartins\\minimercadomartins\\alterardadoscontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{015222D2-14BD-44D0-8CCB-9007ECAA77AA}|MiniMercadoMartins\\MiniMercadoMartins.csproj|solutionrelative:minimercadomartins\\alterardadoscontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CadastrarClienteControl1.cs",
+              "DocumentMoniker": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\CadastrarClienteControl1.cs",
+              "RelativeDocumentMoniker": "MiniMercadoMartins\\CadastrarClienteControl1.cs",
+              "ToolTip": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\CadastrarClienteControl1.cs*",
+              "RelativeToolTip": "MiniMercadoMartins\\CadastrarClienteControl1.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:36:15.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastrarClienteControl1.cs [Design]",
+              "DocumentMoniker": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\CadastrarClienteControl1.cs",
+              "RelativeDocumentMoniker": "MiniMercadoMartins\\CadastrarClienteControl1.cs",
+              "ToolTip": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\CadastrarClienteControl1.cs [Design]*",
+              "RelativeToolTip": "MiniMercadoMartins\\CadastrarClienteControl1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:36:11.879Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmPagarCarrinho.cs [Design]",
+              "DocumentMoniker": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\FrmPagarCarrinho.cs",
+              "RelativeDocumentMoniker": "MiniMercadoMartins\\FrmPagarCarrinho.cs",
+              "ToolTip": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\FrmPagarCarrinho.cs [Design]",
+              "RelativeToolTip": "MiniMercadoMartins\\FrmPagarCarrinho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:36:04.023Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\Program.cs",
+              "RelativeDocumentMoniker": "MiniMercadoMartins\\Program.cs",
+              "ToolTip": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\Program.cs",
+              "RelativeToolTip": "MiniMercadoMartins\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:35:32.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlterarDadosControl1.cs [Design]",
+              "DocumentMoniker": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\AlterarDadosControl1.cs",
+              "RelativeDocumentMoniker": "MiniMercadoMartins\\AlterarDadosControl1.cs",
+              "ToolTip": "D:\\tcc1201\\MiniMercadoMartins\\MiniMercadoMartins\\AlterarDadosControl1.cs [Design]",
+              "RelativeToolTip": "MiniMercadoMartins\\AlterarDadosControl1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:35:23.183Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
